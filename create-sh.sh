@@ -2,7 +2,7 @@
 
 NOW=`date +%Y%m%d%H%M`
 
-FILE_NAME=$NOW".sh"
+FILE_NAME=$NOW'-'$1".sh"
 
 touch $FILE_NAME
 
