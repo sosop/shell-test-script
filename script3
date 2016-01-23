@@ -1,0 +1,11 @@
+BEGIN {
+    
+}
+
+{
+    print $n    
+}
+
+END {
+    
+}
